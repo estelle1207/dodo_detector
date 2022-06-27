@@ -28,7 +28,7 @@ setup(
     author="Douglas De Rizzo Meneghetti",
     author_email="douglasrizzom@gmail.com",
     packages=find_packages(exclude=["contrib", "docs"]),
-    install_requires=["numpy", "tqdm", "imutils", "opencv-python"],
+    install_requires=["numpy", "tqdm", "imutils"],
     extras_require={
         "dev": ["flake8", "yapf"],
         "testing": ["nose", "pillow", "matplotlib"],
